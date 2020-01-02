@@ -13,8 +13,8 @@
 <script>
 export default {
   methods: {
-    openModal() {
-      this.$modal.push('the-first-modal')
+    async openModal() {
+      await this.$store.dispatch('modal/openFirstModal')
     },
   },
 }
