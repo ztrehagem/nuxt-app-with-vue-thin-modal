@@ -1,6 +1,7 @@
 <template>
   <div>
     <nuxt />
+    <modal-portal />
   </div>
 </template>
 

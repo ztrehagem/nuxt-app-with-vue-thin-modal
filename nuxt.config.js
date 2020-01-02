@@ -38,6 +38,9 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['~/modules/vue-thin-modal', {
+      autoMountPortal: false,
+    }],
   ],
   /*
   ** Build configuration
