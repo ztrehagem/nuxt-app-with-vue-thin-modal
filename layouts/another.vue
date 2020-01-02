@@ -1,6 +1,6 @@
 <template>
-  <div class="layout-default">
-    <h1>layout-default</h1>
+  <div class="layout-another">
+    <h1>layout-another</h1>
     <nuxt />
     <TheFirstModal />
     <TheSecondModal />

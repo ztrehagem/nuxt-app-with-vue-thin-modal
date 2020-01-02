@@ -1,9 +1,9 @@
 <template>
-  <div class="page-index">
-    <h2>page-index</h2>
+  <div class="page-another">
+    <h2>page-another</h2>
     <ul>
       <li>
-        <nuxt-link to="/another">page-another</nuxt-link>
+        <nuxt-link to="/">page-index</nuxt-link>
       </li>
     </ul>
     <button @click="openModal">openModal</button>
@@ -12,9 +12,11 @@
 
 <script>
 export default {
+  layout: 'another',
+
   methods: {
     openModal() {
-      this.$modal.push('the-first-modal')
+      this.$modal.push('the-second-modal')
     },
   },
 }
